@@ -63,7 +63,7 @@ export const personalDetails = {
     github: "https://github.com/saisudhanv",
     linkedin: "https://www.linkedin.com/in/challapalli-sai-sudhanv-555326250/",
     leetcode: "https://leetcode.com/saisudhanv2004",
-    email: "mailto:[EMAIL_ADDRESS]", // Replace with standard template/placeholder if needed
+    email: "mailto:saisudhanv2004@gmail.com", // Replace with standard template/placeholder if needed
     phone: "+91 8309559346",
     location: "India"
   }
