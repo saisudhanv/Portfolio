@@ -94,9 +94,9 @@ export default function Skills() {
                   <div key={sIdx} className="flex flex-col gap-1.5 group">
                     <div className="flex items-center justify-between text-xs font-semibold text-slate-300 group-hover:text-cyan-400 transition-colors duration-200">
                       <span>{skill.name}</span>
-                      <span className="text-[10px] text-slate-500 font-mono group-hover:text-cyan-400 transition-colors duration-200">
+                      {/* <span className="text-[10px] text-slate-500 font-mono group-hover:text-cyan-400 transition-colors duration-200">
                         {skill.level}%
-                      </span>
+                      </span> */}
                     </div>
 
                     {/* Progress Bar Track */}
