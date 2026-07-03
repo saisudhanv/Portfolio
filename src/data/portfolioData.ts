@@ -202,9 +202,9 @@ export const skillsData: SkillCategory[] = [
   {
     category: "Programming",
     skills: [
-      { name: "JavaScript", level: 92 },
-      { name: "Python", level: 85 },
-      { name: "C++", level: 78 }
+      { name: "JavaScript", level: 90 },
+      { name: "Python", level: 90 },
+      { name: "C++", level: 85 }
     ]
   },
   {
@@ -234,7 +234,7 @@ export const skillsData: SkillCategory[] = [
   {
     category: "AI/ML",
     skills: [
-      { name: "Gemini", level: 82 },
+      { name: "AI Tools", level: 82 },
       { name: "Scikit-learn", level: 70 },
       { name: "NumPy", level: 75 },
       { name: "Pandas", level: 75 }
@@ -260,8 +260,8 @@ export const achievementsData = {
     }
   ],
   certifications: [
-    { name: "Python Essentials", issuer: "Cisco" },
-    { name: "Networking Essentials", issuer: "Cisco" },
-    { name: "SQL Basics", issuer: "HackerRank" }
+    { name: "Python Essentials", issuer: "Cisco", link:"/PythonEssentials1Update20251218-32-zkqsyw.pdf" },
+    { name: "Networking Essentials", issuer: "Cisco", link:"/CCNAITNUpdated20251218-31-nt7e28.pdf"},
+    { name: "SQL Basics", issuer: "HackerRank", link:"/sql_basic certificate (1).pdf" }
   ]
 };

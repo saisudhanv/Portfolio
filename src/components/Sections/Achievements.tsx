@@ -119,12 +119,15 @@ export default function Achievements() {
                     </p>
                   </div>
                   <a
-                    href="#"
-                    className="p-2 rounded-lg bg-white/5 border border-white/5 text-slate-400 hover:text-cyan-400 hover:bg-cyan-500/5 transition-all duration-300 shrink-0 cursor-pointer"
+                    href={cert.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="rounded-lg bg-white/5 border border-white/5 text-slate-400 hover:text-cyan-400 hover:bg-cyan-500/5 transition-all duration-300 shrink-0 cursor-pointer"
                     aria-label={`View credentials for ${cert.name}`}
                   >
                     <ExternalLink className="w-4 h-4" />
                   </a>
+
                 </Card>
               </motion.div>
             ))}
