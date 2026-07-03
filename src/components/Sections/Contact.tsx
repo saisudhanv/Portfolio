@@ -241,7 +241,7 @@ export default function Contact() {
 
             <div className="space-y-6">
               {[
-                { icon: <Mail className="w-5 h-5 text-cyan-400" />, label: "Email Address", val: "saisu@example.com", link: personalDetails.socials.email },
+                { icon: <Mail className="w-5 h-5 text-cyan-400" />, label: "Email Address", val: "saisudhanv2004@gmail.com", link: personalDetails.socials.email },
                 { icon: <Phone className="w-5 h-5 text-blue-400" />, label: "Phone Number", val: personalDetails.socials.phone, link: `tel:${personalDetails.socials.phone}` },
                 { icon: <MapPin className="w-5 h-5 text-purple-400" />, label: "Current Location", val: personalDetails.socials.location },
               ].map((channel, cIdx) => (
