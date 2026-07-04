@@ -8,7 +8,7 @@ export default function Footer() {
           &copy; {currentYear} Challapalli Sai Sudhanv. All rights reserved.
         </p>
         <p className="text-[10px] text-slate-500 font-mono tracking-tight leading-none">
-          Designed & Developed with Next.js & Tailwind CSS
+          Designed & Developed by Sudhanv with Next.js & Tailwind CSS
         </p>
       </div>
     </footer>
